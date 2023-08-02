@@ -4,7 +4,8 @@
   "description": "This project is about a web app for manage loans applications.",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+	"dev": "concurrently \"cd server && npm run dev\" \"cd client && npm start\" "
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/ibernabel/lomas/issues"
   },
-  "homepage": "https://github.com/ibernabel/lomas#readme"
+  "homepage": "https://github.com/ibernabel/lomas#readme",
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
 }
