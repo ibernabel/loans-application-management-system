@@ -1,0 +1,24 @@
+{
+  "name": "lomas",
+  "version": "1.0.0",
+  "description": "This project is about a web app for manage loans applications.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ibernabel/lomas.git"
+  },
+  "keywords": [
+    "lomas",
+    "loan",
+    "application"
+  ],
+  "author": "Idequel Bernabel Alvarez",
+  "license": " BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/ibernabel/lomas/issues"
+  },
+  "homepage": "https://github.com/ibernabel/lomas#readme"
+}
